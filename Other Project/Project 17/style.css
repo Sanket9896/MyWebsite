@@ -1,0 +1,43 @@
+.outer
+{
+    background: #9CECFB; 
+    background: -webkit-linear-gradient(to bottom, #0052D4, #65C7F7, #9CECFB); 
+    background: linear-gradient(to bottom, #0052D4, #65C7F7, #9CECFB);
+    height: 678px;
+    width: 900px;
+    margin: 30px 50px 50px 230px;
+    border: 1px solid;
+}
+.inner
+{
+    background-color: white;
+    height: 572px;
+    width: 420px;
+    margin-left: 253px;
+    margin-top: 50px;
+    border: 1px solid black;
+    box-shadow: 0 0 25px;
+    border-radius: 10px;
+}
+label
+{
+    margin-left: 50px;
+    font-size: 12px;
+}
+input
+{
+    margin-left: 50px;
+    border: none;
+    height: 25px;
+    width: 320px;
+    border-bottom: 1px solid black;
+    font-size: 12px;
+}
+h2
+{
+    text-align: center;
+    font-size: 40px;
+    background: -webkit-linear-gradient(rgb(241, 19, 19), rgb(106, 27, 209));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
